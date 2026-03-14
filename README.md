@@ -60,5 +60,7 @@ const handleUpdate = (val) => {
 
 ### ⚖️ License (Dual-Licensed)
 This project is a work of art and logic. It is dual-licensed under:
-The Artistic License 2.0
+1. The Artistic License 2.0
+2. The MIT License
+Choose the license that best fits your mission. Qapla'!
 
