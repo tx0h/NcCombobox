@@ -1,9 +1,5 @@
 # 🗳️ NcCombobox for Nextcloud
 
-[![License: MIT or Artistic-2.0](https://img.shields.io)](LICENSE)
-[![Vue 3](https://img.shields.io)](https://vuejs.org)
-[![Nextcloud Vue 9](https://img.shields.io)](https://github.com)
-
 A high-performance, Nextcloud-native **Combobox** component. While standard select components often struggle with free-text input, `NcCombobox` treats the user's typing as the primary source of truth, offering suggestions without restricting the input.
 
 ---
@@ -61,4 +57,8 @@ const handleUpdate = (val) => {
         @update:modelValue="handleUpdate" />
 </template>
 ```
+
+### ⚖️ License (Dual-Licensed)
+This project is a work of art and logic. It is dual-licensed under:
+The Artistic License 2.0
 
