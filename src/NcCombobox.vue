@@ -16,7 +16,7 @@ const props = defineProps({
 	/** The current value (v-model) */
 	modelValue: { type: String, default: '' },
 	/** Direction of the dropdown: 'top', 'bottom', or 'auto' */
-	openDirection: { type: String, default: 'auto' },
+	placement: { type: String, default: 'auto' },
 	/** Whether to append the dropdown to the body to avoid overflow issues */
 	appendToBody: { type: Boolean, default: false }
 })
@@ -68,7 +68,8 @@ const onSearchChange = (search) => {
 			:push-tags="true"
 			:filterable="true"
 			:close-on-select="true"
-			:open-direction="openDirection"
+			:open-direction="placement"
+			:placement="placement"
 			:append-to-body="appendToBody"
 			@search-change="onSearchChange"
 		>
