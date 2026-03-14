@@ -1,0 +1,10 @@
+{
+  "name": "nc-combobox",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "(Artistic-2.0 OR MIT)",
+  "peerDependencies": {
+    "@nextcloud/vue": "^9.0.0",
+    "vue": "^3.0.0"
+  }
+}
